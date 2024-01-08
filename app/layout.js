@@ -3,10 +3,10 @@ import './globals.css'
 import { AuthProvider } from './ContextAPI/AuthContext'
 import Navbar from '@/components/Nav'
 import Footer from '@/components/Footer'
-import { Palanquin } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
 
-const roboto = Palanquin({ 
+const roboto = Roboto({ 
   subsets: ['latin'],
   weight: ['400', '700']
 })

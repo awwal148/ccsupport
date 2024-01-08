@@ -74,7 +74,7 @@ const Home = () => {
             <p className='font-bold text-2xl p-1 text-[#1d1d1d]'>Time Sheet</p> 
             <p className='flex flex-wrap'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi quaerat tenetur repellendus deserunt quisquam.</p>
             <Link href='/timesheet'>
-            <button onClick={window.scrollTo(0,0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Submit Timesheet</button>
+            <button onClick={() => window.scrollTo(0, 0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Submit Timesheet</button>
             </Link>
           </div>
           <div className="sm:w-1/2 h-[15rem] shadow-xl p-3">
@@ -84,7 +84,7 @@ const Home = () => {
             <p className='font-bold text-2xl p-1 text-[#1d1d1d]'>Questions!</p> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi quaerat tenetur repellendus deserunt quisquam.</p>
             <Link href='/questions'>
-            <button onClick={window.scrollTo(0,0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Drop Questions</button>
+            <button onClick={() => window.scrollTo(0, 0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Drop Questions</button>
             </Link>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Home = () => {
             <p className='font-bold text-2xl p-1 text-[#1d1d1d]'>Reviews</p> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi quaerat tenetur repellendus deserunt quisquam.</p>
             <Link href='reviews'>
-            <button onClick={window.scrollTo(0,0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Reviews</button>
+            <button onClick={() => window.scrollTo(0, 0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Reviews</button>
             </Link>
           </div>
           <div className="sm:w-1/2 h-[15rem] shadow-xl p-3">
@@ -106,7 +106,7 @@ const Home = () => {
             <p className='font-bold text-2xl p-1 text-[#1d1d1d]'>Forgotten password</p> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi quaerat tenetur repellendus deserunt quisquam.</p>
             <Link href='password-reset'>
-            <button onClick={window.scrollTo(0,0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Change Password</button>
+            <button onClick={() => window.scrollTo(0, 0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Change Password</button>
             </Link>
           </div>
         </div>
