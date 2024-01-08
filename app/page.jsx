@@ -61,7 +61,7 @@ const Home = () => {
         </div>
         <div className="mt-8 shadow-md">
           <h2 className="font-Montserrat pl-3">Welcome, <span className='font-semibold'>{user?.displayName}!</span> </h2>
-          <p className="py-4 pl-3 font-montserrat">We’re glad to you are back on your platform. if you have any questions feel free to ask or explore the features below.</p>
+          <p className="py-4 pl-3 font-montserrat">We&apos;re glad to you are back on your platform. if you have any questions feel free to ask or explore the features below.</p>
         </div>
       </header>
       <div className="mt-7 px-4">
@@ -116,7 +116,7 @@ const Home = () => {
   <div className='mx-auto mt-3 shadow-lg p-6 bg-white rounded-lg'>
     <p className='font-semibold text-xl mb-3'>Dear Team,</p>
     <p className='text-gray-700'>
-      I trust you're all having a productive week. As we approach the end of the current work cycle, I'd like to emphasize the importance of timely timesheet submissions.
+      I trust you&apos;re all having a productive week. As we approach the end of the current work cycle, I'd like to emphasize the importance of timely timesheet submissions.
     </p>
     <p className='text-gray-700'>
       Submit your timesheet for the week ending on <strong>[date]</strong> by Sunday at 12:00 AM (midnight).

@@ -30,7 +30,7 @@ const { user } = useAuthFilter();
           <span className="mr-2">
             <FaPhone />
           </span>
-          <p>(123) 456-7890</p>
+          <p>(123) 456-78900</p>
         </div>
         <div className="flex items-center mb-4">
           <span className="mr-2">
