@@ -1,7 +1,15 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { AuthProvider } from './ContextAPI/AuthContext'
+import Navbar from '@/components/Nav'
+import Footer from '@/components/Footer'
+import { Palanquin } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+
+const roboto = Palanquin({ 
+  subsets: ['latin'],
+  weight: ['400', '700']
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -9,9 +17,17 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={roboto.className}>
+        <AuthProvider>
+           <Navbar />
+        <main className=""> {children} </main>
+          <Footer />
+        </AuthProvider>
+        </body>
     </html>
+    
   )
 }
