@@ -29,7 +29,7 @@ const Navbar = () => {
 
   const navItems = [
     { label: 'Home', href: '/' },
-    { label: 'Time-sheet', href: '/timesheet' },
+    { label: 'Time-sheet', href: '/care-homes' },
   ];
 
   return (

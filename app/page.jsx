@@ -73,7 +73,7 @@ const Home = () => {
             </IconContext.Provider>
             <p className='font-bold text-2xl p-1 text-[#1d1d1d]'>Time Sheet</p> 
             <p className='flex flex-wrap'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi quaerat tenetur repellendus deserunt quisquam.</p>
-            <Link href='/timesheet'>
+            <Link href='/care-homes'>
             <button onClick={() => window.scrollTo(0, 0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Submit Timesheet</button>
             </Link>
           </div>
