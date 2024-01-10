@@ -149,7 +149,7 @@ const Timesheet = () => {
           </select>
         </div>
 
-        <div className="sm:w-1/2">
+        <div className="sm:w-1/2  mt-2">
           <label className="block text-black font-semibold mb-2">End Time:</label>
           <input
             type="time"
