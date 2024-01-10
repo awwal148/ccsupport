@@ -141,7 +141,7 @@ const Timesheet = () => {
             onChange={(e) => setStartTime(e.target.value)}
           />
           <select
-            className={`w-1/2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-500`}
+            className={`max-sm:hidden w-1/2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-500`}
             value={startPeriod}
             onChange={(e) => setStartPeriod(e.target.value)}
           >
@@ -159,7 +159,7 @@ const Timesheet = () => {
             onChange={(e) => setEndTime(e.target.value)}
           />
           <select
-            className={`w-1/2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-500`}
+            className={`max-sm:hidden w-1/2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-500`}
             value={endPeriod}
             onChange={(e) => setEndPeriod(e.target.value)}
           >
