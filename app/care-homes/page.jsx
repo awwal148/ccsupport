@@ -10,11 +10,11 @@ const CareHomes = () => {
           <Link href="/care-homes/fremantle" className="block px-4 py-4 bg-blue-400 text-white rounded-md hover:bg-blue-600">
             <p className='font-semibold text-black'>FREMANTLE TRUST</p>
           </Link>
-          <Link href="/care-homes/the-croft" className="block px-4 py-4 bg-blue-400 text-white rounded-md hover:bg-blue-600">
-            <p className='font-semibold text-black'>THE CROFT</p>
+          <Link href="/care-homes/armbient" className="block px-4 py-4 bg-blue-400 text-white rounded-md hover:bg-blue-600">
+            <p className='font-semibold text-black'>ARMBIENT SUPPORT</p>
           </Link>
-          <Link href="/care-homes/care-home" className="block px-4 py-4 bg-blue-400 text-white rounded-md hover:bg-blue-600">
-            <p className='font-semibold text-black'>CARE HOME</p>
+          <Link href="/care-homes/jewish" className="block px-4 py-4 bg-blue-400 text-white rounded-md hover:bg-blue-600">
+            <p className='font-semibold text-black'>JEWISH CARE</p>
           </Link>
         </div>
       </div>

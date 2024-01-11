@@ -74,7 +74,7 @@ const Timesheet = () => {
   };
   return (
     <div className="mt-10 bg-white p-8 rounded-lg shadow-lg">
-      <h1 className="text-3xl font-bold mb-6 text-black">Care Home</h1>
+      <h1 className="text-3xl font-bold mb-6 text-black">Jewish Care</h1>
 
       {/* ... (unchanged) ... */}
       {/* Care Home Selection */}
