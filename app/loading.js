@@ -1,6 +1,6 @@
+'use client'
 
-function Loading() {
-
+const Loading = () => {
   return (
     <>
         <div className="loading flex justify-center items-center h-screen">
