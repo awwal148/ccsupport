@@ -1,4 +1,3 @@
-import { Inter } from 'next/font/google'
 import './globals.css'
 import { AuthProvider } from './ContextAPI/AuthContext'
 import Navbar from '@/components/Nav'

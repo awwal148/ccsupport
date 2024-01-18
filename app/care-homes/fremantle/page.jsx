@@ -26,7 +26,7 @@ const Timesheet = () => {
         const breakTime = parseFloat(breakHours) || 0;
 
         let diff = end.diff(start, 'hours'); // in hours
-        diff -= breakTime;
+        // diff -= breakTime;
 
         setTotalHoursWorked(diff >= 0 ? diff.toFixed(2) : "Invalid calculation");
       }

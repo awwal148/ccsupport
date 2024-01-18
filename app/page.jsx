@@ -4,20 +4,20 @@ import { useRouter } from 'next/navigation';
 import { useSpring, animated } from 'react-spring';
 import { useEffect } from "react";
 import { MdAccessTime } from 'react-icons/md';
-import { FaKey, FaKeycdn, FaQuestion, FaQuestionCircle, FaRegQuestionCircle, FaStar } from 'react-icons/fa';
+import { FaKey, FaKeycdn, FaRegQuestionCircle, FaStar } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 import Link from "next/link";
 
 
 // Example usage
-function MyComponent() {
-  return (
-    <div>
-      <MdAccessTime /> {/* Display the time-sheet icon */}
-      {/* Other components or content */}
-    </div>
-  );
-}
+// function MyComponent() {
+//   return (
+//     <div>
+//       <MdAccessTime /> {/* Display the time-sheet icon */}
+//       {/* Other components or content */}
+//     </div>
+//   );
+// }
 
 
 const Home = () => {
@@ -35,8 +35,8 @@ const Home = () => {
    useEffect(() => {
     // Redirect to sign-up page if user is not authenticated
     if (!user) {
-      router.push('/sign-up');
-      console.log(user)
+      router.push('/sign-in');
+      // console.log(user)
     }
   }, [user, router]);
 

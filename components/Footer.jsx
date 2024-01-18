@@ -10,7 +10,7 @@ const { user } = useAuthFilter();
   useEffect(() => {
     // Redirect to sign-up page if user is not authenticated
     if (!user) {
-      router.push('/sign-up');
+      router.push('/sign-in');
       console.log(user)
     }
   }, [user, router]);
