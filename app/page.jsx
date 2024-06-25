@@ -8,18 +8,6 @@ import { FaKey, FaKeycdn, FaRegQuestionCircle, FaStar } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 import Link from "next/link";
 
-
-// Example usage
-// function MyComponent() {
-//   return (
-//     <div>
-//       <MdAccessTime /> {/* Display the time-sheet icon */}
-//       {/* Other components or content */}
-//     </div>
-//   );
-// }
-
-
 const Home = () => {
   const { user } = useAuthFilter();
   const router = useRouter()
@@ -79,24 +67,25 @@ const Home = () => {
           </div>
           <div className="sm:w-1/2 h-[15rem] shadow-xl p-3">
             <IconContext.Provider value={{ color: 'blue', size: '50px' }}>
+             <FaStar />
+             </IconContext.Provider>
+            <p className='font-bold text-2xl p-1 text-[#1d1d1d]'>Available Shifts</p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi quaerat tenetur repellendus deserunt quisquam.</p>
+            <Link href='reviews'>
+            <button onClick={() => window.scrollTo(0, 0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Shifts</button>
+            </Link>
+          </div>
+          
+        </div>
+        <div className="sm:flex gap-4 w-full mt-2">
+          <div className="sm:w-1/2 h-[15rem] shadow-xl p-3">
+            <IconContext.Provider value={{ color: 'blue', size: '50px' }}>
             <FaRegQuestionCircle/>
             </IconContext.Provider>
             <p className='font-bold text-2xl p-1 text-[#1d1d1d]'>Questions!</p> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi quaerat tenetur repellendus deserunt quisquam.</p>
             <Link href='/questions'>
             <button onClick={() => window.scrollTo(0, 0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Drop Questions</button>
-            </Link>
-          </div>
-        </div>
-        <div className="sm:flex gap-4 w-full mt-2">
-          <div className="sm:w-1/2 h-[15rem] shadow-xl p-3">
-            <IconContext.Provider value={{ color: 'blue', size: '50px' }}>
-             <FaStar />
-             </IconContext.Provider>
-            <p className='font-bold text-2xl p-1 text-[#1d1d1d]'>Reviews</p> 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi quaerat tenetur repellendus deserunt quisquam.</p>
-            <Link href='reviews'>
-            <button onClick={() => window.scrollTo(0, 0)} className='flex flex-col justify-center items-center py-2 px-4 bg-red-500 duration-100 hover:bg-red-400 text-center mt-3'>Reviews</button>
             </Link>
           </div>
           <div className="sm:w-1/2 h-[15rem] shadow-xl p-3">

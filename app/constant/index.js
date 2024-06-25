@@ -1,0 +1,8 @@
+export const shiftData = [
+    { index: 1, jobTitle:"Qualified Nurse", address: "Bookin Lan Town, Buckinghamshire High wycombe", shiftDate: "04/07/2024", shiftStart: "8:00", shiftEnd: "14:30", postCode: "LP13 4VX", shiftBTN: "Request", shiftRequested: "Requested", shiftConfirmed: "Confirmed"},
+    { index: 2, jobTitle:"Qualified Care Assistant", address: "Crud Lan Town, Buckinghamshire High wycombe", shiftDate: "06/07/2024", shiftStart: "8:45", shiftEnd: "15:45", postCode: "LT11 4PX", shiftBTN: "Request", shiftRequested: "Requested", shiftConfirmed: "Confirmed"},
+    { index: 3, jobTitle:"Qualified Nurse", address: "Bookin Lan Town, Buckinghamshire High wycombe", shiftDate: "22/11/2024", shiftStart: "9:00", shiftEnd: "15:45", postCode: "MP13 4PQ", shiftBTN: "Request", shiftRequested: "Requested", shiftConfirmed: "Confirmed"},
+    { index: 4, jobTitle:"Qualified Support Worker", address: "Bookin Lan Town, Buckinghamshire High wycombe", shiftDate: "9/07/2024", shiftStart: "8:00", shiftEnd: "14:30", postCode: "LP13 4VX", shiftBTN: "Request", shiftRequested: "Requested", shiftConfirmed: "Confirmed"},
+    { index: 5, jobTitle:"Qualified Care Assistant", address: "Bookin Lan Town, Buckinghamshire High wycombe", shiftDate: "17/07/2024", shiftStart: "12:00", shiftEnd: "18:30", postCode: "GT12 5HV", shiftBTN: "Request", shiftRequested: "Requested", shiftConfirmed: "Confirmed"},
+    { index: 6, jobTitle:"Qualified Nurse", address: "Bookin Lan Town, Buckinghamshire High wycombe", shiftDate: "18/07/2024", shiftStart: "8:00", shiftEnd: "14:30", postCode: "LP13 4VX", shiftBTN: "Request", shiftRequested: "Requested", shiftConfirmed: "Confirmed"},
+]
