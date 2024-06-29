@@ -37,9 +37,9 @@ export default function ShiftDetails() {
               </div>
               <div className='flex-shrink-0 mt-4 md:mt-0 flex gap-4'>
                 {shiftRequestInfo[index] ? (
-                  <button className='py-2 px-4 bg-blue-500 text-white rounded' onClick={() => toggleRequest(index)}>{info.shiftBTN}</button>
+                  <button className='py-2 px-4 bg-blue-500 text-white rounded' onClick={() => toggleRequest(index)}>{info.shiftRequested}</button>
                 ) : (
-                  <button className='py-2 px-4 bg-blue-400 text-white rounded' onClick={() => toggleRequest(index)}>{info.shiftRequested}</button>
+                  <button className='py-2 px-4 bg-blue-400 text-white rounded' onClick={() => toggleRequest(index)}>{info.shiftBTN}</button>
                 )}
               </div>
             </div>
